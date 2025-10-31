@@ -1,0 +1,33 @@
+# Go build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage/
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Environment/config
+.env
+
+# Local data and logs
+/data/
+*.log
+
+# Profiling and test artifacts
+cpu.out
+mem.out
+api.test
+
+# Generated files
+/dist/
+/build/
+
